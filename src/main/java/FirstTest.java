@@ -13,7 +13,6 @@ public class FirstTest {
         driver.get("https://www.google.com");
         WebElement searchInput = driver.findElement(By.name("q"));
         searchInput.sendKeys("Selenium lessons");
-        //WebElement buttonSearch = driver.findElement(By.name("btnK"));
         searchInput.submit();
         driver.quit();
     }
